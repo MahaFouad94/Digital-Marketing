@@ -1,22 +1,57 @@
 # Digital Marketing Portfolio
 
-This repository is reserved for public-safe digital marketing case studies and campaign-analysis examples.
+An NDA-safe campaign analysis portfolio using synthetic marketing data.
 
-It does not include client files, private campaign exports, confidential performance data, brand assets, contact lists, or NDA-protected materials.
+This repository demonstrates how paid campaign performance can be reviewed using simple KPIs, channel comparisons, and executive-style recommendations. The data is fully invented and does not contain client exports, ad-account data, contact lists, private creative assets, or employer files.
 
-## Planned Public-Safe Content
+## Project Goal
 
-Future examples may include:
+Show a clean marketing analytics workflow:
 
-- Synthetic campaign performance analysis
-- Sample lead-generation KPI dashboards
-- Public-safe SEO content structure examples
-- Generic content calendar templates
-- Campaign reporting templates using dummy data
+1. Read synthetic campaign data.
+2. Calculate cost, engagement, lead, and conversion KPIs.
+3. Compare performance by channel and campaign objective.
+4. Produce a short decision-ready report.
+
+## What This Demonstrates
+
+- Campaign performance analysis
+- Cost per lead and conversion-rate calculations
+- Channel comparison
+- Budget-efficiency thinking
+- Python-based reporting
+- Public-safe portfolio documentation
+
+## Repository Structure
+
+```text
+.
+├── data/
+│   └── synthetic_campaign_performance.csv
+├── reports/
+│   └── sample_campaign_report.md
+├── src/
+│   └── analyze_campaigns.py
+└── README.md
+```
+
+## Quick Start
+
+Run the analysis:
+
+```bash
+python src/analyze_campaigns.py
+```
+
+The report will be written to:
+
+```text
+reports/sample_campaign_report.md
+```
 
 ## Portfolio Safety Rule
 
-Only synthetic, anonymized, or publicly shareable material should be added here. Real client data, employer files, private ad-account exports, creative assets, and contact lists should remain private.
+Only synthetic, anonymized, or publicly shareable material belongs in this repository. Real client data, employer files, private ad-account exports, creative assets, and contact lists should remain private.
 
 ## Author
 
